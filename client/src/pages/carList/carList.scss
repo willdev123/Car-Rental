@@ -1,0 +1,52 @@
+.carList {
+	.container {
+		padding: 20px 70px;
+		.link {
+			height: 50px;
+			margin-left: 85%;
+			border: none;
+			cursor: pointer;
+			color: lightcoral;
+			background-color: white;
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.list {
+			margin-top: 20px;
+			display: flex;
+			flex-direction: column;
+			gap: 50px;
+		}
+		.load-button {
+			margin-top: 30px;
+			padding: 15px;
+			width: 10%;
+			border: none;
+			border-radius: 5px;
+			color: white;
+			background-color: lightblue;
+			cursor: pointer;
+		}
+	}
+}
+
+.container-noCar {
+	padding: 20px 70px;
+	.message {
+		font-size: 20px;
+		font-weight: 1000;
+		color: red;
+	}
+	.link {
+		display: flex;
+		height: 50px;
+		border: none;
+		cursor: pointer;
+		color: lightcoral;
+		background-color: white;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}

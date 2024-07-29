@@ -1,0 +1,53 @@
+.registerCar {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+
+	.container {
+		padding: 20px;
+		h2 {
+			font-size: 30px;
+			margin-bottom: 20px;
+			color: #a9a9a9;
+			font-weight: bold;
+		}
+		.form {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			.field {
+				width: 400px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 10px;
+				label {
+					width: 50%;
+				}
+				input {
+					width: 190px;
+					line-height: 30px;
+					border: 1px solid lightgray;
+					border-radius: 5px;
+					padding: 10px;
+				}
+				.select {
+					width: 208px;
+					height: 52px;
+					border: 1px solid lightgray;
+					border-radius: 5px;
+					padding: 10px;
+				}
+			}
+		}
+		.register {
+			height: 30px;
+			margin-top: 30px;
+			padding: 20px;
+			color: white;
+			background-color: lightcoral;
+		}
+	}
+}

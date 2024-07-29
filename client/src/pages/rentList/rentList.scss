@@ -1,0 +1,43 @@
+.rentList {
+	height: 100vh;
+
+	.container {
+		padding: 20px;
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-top: 20px;
+		}
+
+		thead,
+		th {
+			max-height: 200px;
+			border: 1px solid #ddd;
+			padding: 8px;
+			text-align: left;
+			color: lightcoral;
+			background-color: #f2f2f2;
+			width: 100px;
+		}
+
+		tbody,
+		td {
+			max-height: 200px;
+			border: 1px solid #ddd;
+			padding: 8px;
+			text-align: left;
+			color: lightslategray;
+			width: 100px;
+		}
+	}
+}
+
+.container-err {
+	padding: 20px 70px;
+	.message {
+		font-size: 20px;
+		font-weight: 1000;
+		color: red;
+	}
+}

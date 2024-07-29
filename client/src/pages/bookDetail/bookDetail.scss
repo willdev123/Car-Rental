@@ -1,0 +1,48 @@
+.bookDetail {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	.container {
+		padding: 20px;
+		h2 {
+			font-size: 30px;
+			margin-bottom: 20px;
+			color: #a9a9a9;
+			font-weight: bold;
+		}
+
+		.contents {
+			display: flex;
+			.left,
+			.right {
+				margin-top: 20px;
+				width: 50%;
+
+				span {
+					font-size: 30px;
+					color: lightcoral;
+					font-weight: 700;
+				}
+
+				.items {
+					margin-top: 50px;
+					display: flex;
+					flex-direction: column;
+					gap: 30px;
+					.item {
+						font-size: 20px;
+						font-weight: 500;
+						color: lightslategray;
+					}
+				}
+			}
+		}
+	}
+	.buttons {
+		display: flex;
+		gap: 10px;
+		position: absolute;
+		bottom: 100px;
+		left: 20px;
+	}
+}
